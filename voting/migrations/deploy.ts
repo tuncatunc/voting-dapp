@@ -7,7 +7,7 @@ import { Provider } from "@coral-xyz/anchor";
 const anchor = require("@coral-xyz/anchor");
 
 module.exports = async function (provider: Provider) {
-  // Configure client to use the provider.
+  // Configure client to use the provider..
   anchor.setProvider(provider);
 
   // Add your deploy script here.
